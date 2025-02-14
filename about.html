@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>About</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <div class="logo"><img src="Images/MYA.png" alt="Company logo"></div>
+        <ul class="sidebar">
+            <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <li><a href="index.html">Home</a><li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <ul>
+          <li><a href="#"></a></li>
+          <li class="hideOnMobile"><a href="index.html">Home</a></li>
+          <li class="hideOnMobile"><a href="about.html">About</a></li>
+          <li class="hideOnMobile"><a href="services.html">Services</a></li>
+          <li class="hideOnMobile"><a href="contact.html">Contact</a></li>
+          <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+        </ul>
+    </nav>
+    <section class="about-container">
+        <div class="about-title">
+            <div class="about-content">
+                <h1>About Us</h1>
+            </div>
+        </div>
+    </section>
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>Our Agency</h1>
+                <p>Welcome to MYA Digital Media, a cutting-edge digital marketing agency based in Wales, United Kingdom. We specialize in helping businesses grow their online presence through innovative strategies, creative content, and data-driven marketing solutions. <br><br>At MYA Digital Media, we believe that every brand has a unique story to tell. Our team of digital experts works closely with clients to craft tailored marketing campaigns that drive engagement, increase visibility, and generate real results.</p>
+                <h3>Our Founder</h3>
+                <p id="second-par">"MYA Digital Media was founded with a clear vision, to help businesses maximize their online potential. <br>At our core, we believe in delivering high-impact solutions that not only grow brands but also generate maximum revenue, ensuring our clients achieve the success they deserve in the ever-evolving digital landscape"</p>
+            </div>
+            <div class="about-col">
+                <img src="Images/about-section.jpg" >
+            </div>
+        </div>
+    </section>
+    </section>
+    <footer class="cta">
+        <h1>What Are You Waiting For?</h1>
+        <button><a href="">Contact Us</a></button>
+        <div class="social-media-icons">
+            <a href="https://www.instagram.com/mya_digitalmedia/"><i class="fab fa-instagram" id="instagram-icon"></i></a>
+            <a href="https://www.facebook.com/share/14gK1vV23q/?mibextid=wwXIfr"><i class="fab fa-facebook" id="facebook-icon"></i></a>
+        </div>
+    </footer>
+</body>
+</html>

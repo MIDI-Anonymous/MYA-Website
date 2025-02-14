@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>MYA Digital Media</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <div class="logo"><img src="Images/MYA.png" alt="Company logo"></div>
+        <ul class="sidebar">
+            <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <li id="home"><a href="index.html">Home</a><li>
+            <li id="about"><a href="about.html">About</a></li>
+            <li id="services"><a href="services.html">Services</a></li>
+            <li id="contact"><a href="contact.html">Contact</a></li>
+        </ul>
+        <ul>
+          <li><a href="#"></a></li>
+          <li class="hideOnMobile"><a href="index.html">Home</a></li>
+          <li class="hideOnMobile"><a href="about.html">About</a></li>
+          <li class="hideOnMobile"><a href="services.html">Services</a></li>
+          <li class="hideOnMobile"><a href="contact.html">Contact</a></li>
+          <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+        </ul>
+    </nav>
+    <div class="main_container">
+        <div class="main_title">
+            <div class="main_content"></div>
+                <h1 id="head-title">Sales + Customers +<br>Guaranteed Growth</h1>
+                <p id="description-title">You do what you do best and we'll take care of the marketing</p>
+                <button class="first-c-button"><a href="contact.html">Contact Us</a></button>
+            </div>
+        </div>
+    </div>
+    <section class="most-of-marketing">
+        <h1>How Do You Get The Most Out Of Your Marketing?</h1>
+
+        <div class="row">
+            <div class="reason-column">
+                <h3>Do It Yourself?</h3>
+                <p>That's fine if you have the time. <br>But If you don't have it, then it's <br>not a viable option.</p>
+            </div>
+            <div class="reason-column">
+                <h3>Hiring Staff?</h3>
+                <p>Finding the right staff is not easy. Personnel training is expensive and time consuming. <br><br>Even if you do find the perfect person for the position... <br><br>you're still depending on one person.</p>
+            </div>
+            <div class="reason-column">
+                <h3>Hiring An Agency?</h3>
+                <p>Don't have a marketing budget of tens of thousands of Pounds? <br>Then your account could end <br>up being managed by the <br>intern of the assistants' <br>assistant. <br><br>Not exactly optimal.</p>
+            </div>
+        </div>
+    </section>
+    <section class="we-do-for-you">
+        <i class= "fa fa-handshake" id="Icon-1"></i>
+        <div class="reasons" id="Num-1">
+            <h3>Guarantee</h3>
+            <p>We only win if you win. That is the basis of a successful collaboration, <br>we share the risk with you.</p>
+        </div>
+        <div class="reasons" id="Num-2">
+            <i class="fa fa-check-square" id="Icon-2"></i>
+            <h3>Results</h3>
+            <p>Our priority is to achieve results for you. Nothing else. <br>Less Words More Action.</p>
+        </div>
+        <div class="reasons" id="Num-3">
+            <i class="fa fa-bullseye" id="Icon-3"></i>
+            <h3>Specialisation</h3>
+            <p>A little bit of Everything, Master of specialties. <br><br>Specialisation works. <br><br>That's why we work in industries we know to generate results.</p>
+        </div>
+        <div class="reasons" id="Num-4">
+            <i class="fa fa-globe" id="Icon-4"></i>
+            <h3>We Are Local</h3>
+            <p>We're not tucked away in some anonymous call center.<br><br>We're a local company, so you'll be able to reach us when you need us.</p>
+        </div>
+    </section>
+    <footer class="cta">
+        <h1>What Are You Waiting For?</h1>
+        <button><a href="/contact.html">Contact Us</a></button>
+        <div class="social-media-icons">
+            <a href="https://www.instagram.com/mya_digitalmedia/"><i class="fab fa-instagram" id="instagram-icon"></i></a>
+            <a href="https://www.facebook.com/share/14gK1vV23q/?mibextid=wwXIfr"><i class="fab fa-facebook" id="facebook-icon"></i></a>
+        </div>
+    </footer>
+</body>
+</html>
